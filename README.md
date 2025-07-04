@@ -35,37 +35,80 @@ The workflow includes:
 
 ## 📂 Project Structure
 
-├── data/ # Raw dataset files
-├── notebooks/ # Jupyter Notebooks for EDA and modeling
-├── src/ # Python scripts (preprocessing, modeling)
-├── results/ # Outputs (plots, evaluation metrics)
-├── requirements.txt # Dependencies
-├── README.md # This file
+- ├── data/ # Raw dataset files
+- ├── notebooks/ # Jupyter Notebooks for EDA and modeling
+- ├── src/ # Python scripts (preprocessing, modeling)
+- ├── results/ # Outputs (plots, evaluation metrics)
+- ├── requirements.txt # Dependencies
+- ├── README.md # This file
 
 ---
 
-## ⚙️ Requirements
+## 🧰 Technologies Used
 
-- Python 3.x
-- pandas
-- numpy
+- Python
+- Pandas
+- NumPy
 - scikit-learn
-- matplotlib
-- seaborn
+- Matplotlib / Seaborn (for visualization)
+- Jupyter Notebook
 
-Install dependencies:
+---
+
+## 📝 Dataset
+
+The dataset includes customer attributes such as:
+- Demographic information
+- Account activity
+- Service usage metrics
+- Churn labels (`0 = No churn`, `1 = Churn`)
+
+## 📈 Evaluation Metrics
+
+The model performance is evaluated using:
+
+- Accuracy
+
+- Confusion Matrix
+
+- Precision, Recall, F1-Score
+
+![image](https://github.com/user-attachments/assets/bd7ca0d9-eeed-4d74-bbd8-98de9df73ca2)
+
+
+## ✨ Results
+Achieved an accuracy of XX% on the test dataset.
+
+The model successfully identifies churned customers with reasonable precision and recall.
+
+## 🚀 How to Run
+
+Open the Jupyter Notebook:
 
 ```bash
-git clone https://github.com/yourusername/churn-prediction-using-knn.git
-cd churn-prediction-using-knn
-pip install -r requirements.txt
 jupyter notebook
 
 ```
+
+## ⚙️ Installation
+
+Clone this repository:
+
+```bash
+git clone https://github.com/Vasanthrk29/churn-prediction-knn.git
+cd churn-prediction-knn
+pip install -r requirements.txt
+```
 ---
 
-If you want, I can help you tailor the README further—just share:
-- The dataset you used
-- Screenshots or example results
-- Any special instructions
 
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repository and submit a pull request.
+
+## 📬 Contact
+If you have any questions or suggestions, please reach out:
+
+GitHub: Vasanthrk29
+
+Email: vasanthrk2004@gmail.com
